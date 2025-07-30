@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<style>
+    .page{
+        width: 50%;
+        align-self: center;
+    }
+    h2{
+        font-size: larger;
+        margin-top: 10px;
+        border-bottom: 3px dotted #A07178; 
+
+    }
+
+    h1{
+        font-size: xx-large;
+        margin-bottom: 10px; 
+        margin-top: 20px;
+       
+    }
+
+    .info{
+        font-style: italic;
+    }
+
+</style>
+
+<div class="page">
+  <h1 class="mt-4 publication-title">{{ page.title }}</h1>
+  <div class="authors">{{ page.authors }}</div>
+  <div class="info">{{ page.publication }}, {{ page.year}}</div>
+
+  {{ content }}
+  
+
+  <h2>Abstract</h2>
+  <p>{{page.abstract}}</p>
+
+  <h2 id="downloads">Downloads</h2>
+  <p>
+    <a href="/downloads/{{ page.slug }}.pdf"
+      ><i class="far fa-file-pdf"></i> PDF</a
+    >&nbsp;&nbsp; {% if page.slides %}
+    <a href="/downloads/{{ page.slug }}_slides.pdf"
+      ><i class="far fa-file-pdf"></i> Slides</a
+    >&nbsp;&nbsp; {% endif %}
+    
+    >&nbsp;&nbsp; {% if page.doi %}
+    <a href="{{ page.doi }}"><i class="fas fa-external-link-alt"></i> DOI</a
+    >&nbsp;&nbsp; {% endif %}
+  </p>
+</div>

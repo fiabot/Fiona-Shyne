@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Welcome to my Website!!"
+date:   2025-07-30
+categories: personal
+---
+Hello and welcome to my blog! 
+
+Not completely sure what I am going to include on this website, but hopefully this is enough to set started with. I am thinking this blog can be useful for 1. keeping track of different research topics and areas, 2. sharing my opinions on various topics in my field, 3. sharing personal projects and ideas. 
+
+Hopefully this could be a resource for others, particularly up and coming researchers. 
