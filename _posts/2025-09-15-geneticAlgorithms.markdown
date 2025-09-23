@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Overview of Genetic Algorithms"
-date:   2025-09-15
+date:   2025-09-23
 categories: research GAs live 
 ---
 
 Hello, this is the live document on genetic algorithms. I plan to edit this post as I gather more information about it. 
 
-This post was last updated September 15th 2025. 
+This post was last updated September 23rd 2025. 
 
 ##  What is a Genetic Algorithm 
 
