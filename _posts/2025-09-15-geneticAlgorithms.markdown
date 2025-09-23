@@ -160,4 +160,19 @@ There are many different ways to modify this basic version of a genetic algorith
 
 ### MSC. 
 
-* **Interactive Evolution**: Interactive evolution can refer to a wide range of algorithms in which a human participates in some part of the evolution process. In *human evolution* the human determined fitness, for example by selecting their favorite individual out of the population. Other approaches have humans supplying individuals into the population, or modifying their preference throughout the evolutionary process.   
+* **Interactive Evolution**: Interactive evolution can refer to a wide range of algorithms in which a human participates in some part of the evolution process. In *human evolution* the human determined fitness, for example by selecting their favorite individual out of the population. Other approaches have humans supplying individuals into the population, or modifying their preference throughout the evolutionary process. 
+
+### Read More 
+
+Here I will collect valuable citations if you want to learn more about Genetic Algorithms 
+
+* [A review of Genetic Algorithms][https://link.springer.com/article/10.1007/s11042-020-10139-6]
+  * Katoch, S., Chauhan, S.S. & Kumar, V. A review on genetic algorithm: past, present, and future. Multimed Tools Appl 80, 8091–8126 (2021). https://doi.org/10.1007/s11042-020-10139-6 
+  * This paper preformed a systematic review of Genetic Algorithm paper and does a good job describing the variations of GAs and there strengths/disadvantages 
+* [Map Elites][https://arxiv.org/abs/1504.04909]
+  * Mouret, Jean-Baptiste, and Jeff Clune. "Illuminating search spaces by mapping elites." arXiv preprint arXiv:1504.04909 (2015). 
+  * This is paper that introduce the popular MapElites algorithm 
+* [No Free Lunch][https://www.researchgate.net/profile/David-Wolpert/publication/221997149_No_Free_Lunch_Theorems_for_Search/links/0c960529e2b49c4dce000000/No-Free-Lunch-Theorems-for-Search.pdf]
+  * Wolpert, David H., and William G. Macready. No free lunch theorems for search. Vol. 10. No. 12. Technical Report SFI-TR-95-02-010, Santa Fe Institute, 1995.
+  * This fundamental paper outlines the problem with search based algorithms (including GAs): over the space of all problems no one search algorithm can out preform another search algorithm 
+
