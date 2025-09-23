@@ -19,6 +19,7 @@
 
   <ul class="list  list--posts">
     {% for page in site.posts %}
+    {% if post.categories contains page.tag or page.tag == "" %}
       <li class="item  item--post">
         <article class="article  article--post  typeset">
 

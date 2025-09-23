@@ -2,7 +2,7 @@
 layout: post
 title:  "Overview of Genetic Algorithms"
 date:   2025-09-15
-categories: research, GAs, live 
+categories: research GAs live 
 ---
 
 Hello, this is the live document on genetic algorithms. I plan to edit this post as I gather more information about it. 
