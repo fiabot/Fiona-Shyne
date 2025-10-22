@@ -11,4 +11,4 @@ aside: true
 #### Welcome to my blog  
 I am hoping to use this blog to document and share the knowledge I have acquired throughout my research journey. I will also share some of my personal life (look out for my Bonsai updates). 
 
-To get started, take a look at the live [post]({% post_url 2025-09-15-geneticAlgorithms %}) for genetic algorithms. 
+To get started, take a look at the live [post]({{ site.url }}{% post_url 2025-09-15-geneticAlgorithms %}) for genetic algorithms. 
