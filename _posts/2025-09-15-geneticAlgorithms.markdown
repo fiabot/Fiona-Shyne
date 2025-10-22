@@ -160,7 +160,7 @@ There are many different ways to modify this basic version of a genetic algorith
 
 ### MSC. 
 
-* **Interactive Evolution**: Interactive evolution can refer to a wide range of algorithms in which a human participates in some part of the evolution process. In *human evolution* the human determined fitness, for example by selecting their favorite individual out of the population. Other approaches have humans supplying individuals into the population, or modifying their preference throughout the evolutionary process. Check out the live [post]({% post_url 2025-09-30-InteractiveGAs %}) for interactive GAs to learn more. 
+* **Interactive Evolution**: Interactive evolution can refer to a wide range of algorithms in which a human participates in some part of the evolution process. In *human evolution* the human determined fitness, for example by selecting their favorite individual out of the population. Other approaches have humans supplying individuals into the population, or modifying their preference throughout the evolutionary process. Check out the live [post]({{ site.baseurl }}{% post_url 2025-09-30-InteractiveGAs %}) for interactive GAs to learn more. 
 
 ### Read More 
 
