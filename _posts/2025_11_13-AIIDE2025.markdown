@@ -1,0 +1,242 @@
+---
+layout: post
+title:  "Reflections on AIIDE 2025"
+date:   2025-11-12
+categories: conferences , aiide 
+---
+
+I went to AIIDE 2025 at the University of Alberta in Edmonton, Canada. 
+
+The AIIDE proceedings are available [here](https://ojs.aaai.org/index.php/AIIDE/index) 
+
+The EXAG proceedings are available [here](https://ceur-ws.org/Vol-4090/) 
+
+## EXAG + INT Workshop 
+This year we had a combined Experimental AI in games (EXAG) and Intelligent Narrative Technology (INT) workshop during the first two days of the conference. 
+
+### Organizing Notes 
+
+Me, along with my labmate Kaylah Facey, helped organize the EXAG workshop this year. This was an exciting opportunity to put our influence over the workshop, along with getting a behind the scenes view of how to organize conferences. As a collective we were in charge of: determining the sessions at the workshop, recruiting reviewers, assigning reviewers to papers, determining final acceptance of papers, determining the schedule, and running the workshop the day of (along with smaller tasks). 
+
+Since I submitted a paper to the workshop, I sat out for most of the review process. This did mean I was able to help with reviewing papers. This was very important as we had record number of submissions... and not record number of reviewers recruited. The review process (from what I saw on our discord) was pretty hectic, so we know from the future to start recruitment earlier.  I think it is particularly important to recruit newer grad students into the review process, as EXAG can serve as a good introduction to new students. 
+
+One of the tasks I had was to make the schedule. This ended up not being as difficult as I thought it might be, but there were some tricky things to consider. We had a lot of session we wanted to add in, but I also wanted to build in plenty of coffee breaks. I was proud that I was able to put in a full 30 minute coffee break between every session, but at the sacrifice of only having an hour for lunch. People did enjoy the coffee breaks, although wanted longer for lunch and to have it earlier in the day. I also got some complaints about when the schedule was posted (only a week before the conference), which was mostly due to trying to schedule a joint meeting between the EXAG and INT committees. Making the schedule did let me use some of my graphic design skills using Canva, which I was also able to use to make the stickers for EXAG. I didn't hear that much feedback on the sticker design, but people were taking them so hopefully they enjoyed them. 
+
+The session I was in charge of was the demo session. We had planned this to be an informal process for people to share works in progress. I had posted a Google Slides presentation to the discord ahead of time, but only three people (me being one of them) actually added their demo to the slides ahead of time. This made me worry throughout the workshop if we were going to get any demos. I kept reminding people that the demo session was happening at the end of the day, and luckily we ended up with 6-7 demos (we were a perfectly reasonable amount to have). The room we were in wasn't ideal for this type of situations, as a large lecture hall with few tables. I was thinking of AIIDE last here which was much more equipped for this type of session. However, I think we made it work and people seemed to have a good time during the demo session. After the workshop we got feedback that they enjoyed the informalness of the session, but some people didn't have access to the discord where the slides were posted so were not prepared for it. 
+
+Another session I ran was the Speculative Design game jam, which I took over for an organizer who couldn't make it to the conference. This was an interactive session where small groups worked together to design a game based on several prompts related to generative AI. I think this session was very successful. People were very engaged with the task, and we got lots of feedback that it was fun to be able to just spend an hour thinking about game design without worrying about implementation. We did get some criticism over the theme of generative AI. Overall the AIIDE community is extremely skeptical over the use of generative AI, although some are more welcoming - which caused some tension in the workshop. Overall I had mixed feelings about this. It wouldn't have been my personal choice to theme this around generative AI, but it also lead to interesting discussions to come out of it. This technology is widely used and I do feel like places like EXAG are where we should be having these difficult conversations about it. But I can also appreciate that it might be nice to have an escape from these types of discussions, as they are pretty common in the general technology landscape right now.  
+
+Overall the experience of running EXAg was wonderful. Through the workshop I was able to talk to many people, and they were all very kind and complemented us on the work we put in to the workshop. I think this was a great way to make me feel like a true member of this community. Research can isolating at times, so I am grateful to have conferences like AIIDE where I can interact with great people who show their excitement for what I am doing. I got asked several times if I wanted to help organize EXAG next year, and while I gave non-committal answers I am considering it more now. Especially with the conversation I had with Kate Compton and Mike Cook that inspired me to create a new track for EXAG: experimental media. This can be a place to submit anything that is not a paper: a game, a spoken word piece, a short story, etc. I feel that workshops, and EXAG in particular, should be a way to show off work that wouldn't necessarily be accepted in larger research communities. I think this new track is an exiting opportunity to see more weird and experimental work. 
+
+### My Papers 
+I was lucky enough to be an author on two papers that were accepted into the workshop. 
+
+#### PCG-SAF 
+This paper is from my pet project of using self-assembling figures as a new method of PCG in the analog form. In this paper I describe my process for creating a toolkit to create game pieces that randomly assemble themselves when the user shakes a jar. I created a sample game using this system, where users control opposing robot armies. I was very excited to bring this work to EXAG. The community very much seemed to embrace it, and many people came up to me to share their ideas of what something like this could be in the future. It was extra fun to bring the pieces with me and have people try it for themselves. 
+
+#### Three-Star Puzzle System for Lattice Folding 
+This was a project my summer mentee worked on. The goal was to create a puzzle game based on the simplified protein folding model called lattice protein folding. In this model you have a chain of amino acids that you must place on a grid to maximize the number of interactions. The puzzles were generated using a genetic algorithm that optimized the number of solutions a player could fold the chain into, allowing for each puzzle solution to be rated out of three stars. I was very proud of what my mentee was able to accomplish in the short time she was at Northeastern, and even more excited she had the chance to present her work at a conference. While she hasn't decided, I am secretly hoping she ends up in game research so I can see her at future conferences. 
+
+### Interesting Papers 
+I was mostly pre-occupied with running the workshop, so I wasn't able to pay attention to many of the papers in the workshop. Instead these were the couple that stood out to me. 
+
+#### Designing a Modular, Scalable Benchmark for Narrative Experience Management
+ 
+ This paper was interesting to me as it posed narrative situations as a puzzle. The speaker first gave an example of a chess puzzle, where you are given a state in a chess game and must decide what the best next move is. Narrative situations could be posed in the similar situation, in the sense that you need to decide which actions each character makes that aligns with the desires of the characters, along with over all story goals. 
+
+ They presented a benchmark for describing narrative problems that is flexible, tracks multiple agents, and can be softlocked (along with other requirements that I am forgetting about). You can look at a snap shot of a state and try and figure out what actions each character should make to complete an overall goal along with following each characters desires. This work doesn't make any assumptions of what makes a "good" story and instead leaves that up to whoever is using the benchmark tool.  
+
+#### A Markovian Framing of Wave Function Collapse for Procedurally Generating Aesthetically Complex Environments
+
+This paper is one approach to tackle a major problem in PCG: many ML algorithms do not strictly obey edge constraints between tiles (resulting in ugly levels), and algorithms like Wave Function Collapse do not obey global constraints. Wave Function Collapse (WFC) is an algorithm in which an example(s) are used to determine which tiles are allowed to be placed next to each other - which is then used to build a larger level in which all neighbor pairs exist somewhere in the example level. This paper uses a combination of Markovian model, genetic algorithms, and WFC to create levels that both have local neighbor constraints along with maintaining global requirements (e.g path lengths, or environment proportions). 
+
+### Key note 
+Mike Cook was nice enough to give the key note for the EXAG workshop. Mike was the organizer of the first EXAG, over a decade ago. This keynote in large part a reflection of EXAG and what role it plays in the community. Overall he described how EXAG is a space where weird research is able to be published, and how we as a community are valuable to explore spaces that may not be respected in the overall research or commercial space.  He specifically talked about EXAG in the context of the current boom of GenAI, and how he fits in as a researcher that is resistent to using this technology in his work. He puts this in context of the 80s when experts systems were the hot topic, and how this one researcher was persisting in this *weird* research of neural networks. No one knows that technology will become successful, or what will grow from current research. In this current state where many spaces are trying to push us into narrow scopes of research, it is even more important that we continue to have workshops like EXAG and that we protect *weird* research by giving us spaces to publish (and more importantly having jobs!). 
+
+
+## Main Conference 
+
+### Key Notes 
+
+#### Kate Compton 
+
+Kate Compton had a vocal issue so conducted the entire keynote in ASMR! In edition, she posted her notes on Miro board to make it an interactive experience. 
+
+ Honestly it was somewhat hard for me to follow this talk both because Kate was loosing her voice, and I was very quickly distracted by all the participants on the Miro board scribbling on the edges. Overall the talk was about how to build infrastructures for casual creators. Overall she talked about the three properties of folk infrastructures in that they need to be: fuck-up friendly, have semantic components that can be recombined, and be shareable. 
+
+ Overall this was a wonderful experience. I very much enjoyed the interaction with the miro board, and the silly comments from other participants including the continued calls for tea breaks. 
+
+#### Take Two 
+Take two AI is a cross functional group building next-gen tools to support team across the enterprise. They also manage GenAI governance across T2. This talk is focused on how to get AI integrated into games. 
+
+Case study: ChatGPT. While chat-GPT exploded in 2022, the base technology of transformers came out in 2017. So why did transformers stay hidden in academic corners? Attention isn't all you need, interesting work consistently remains in obscurity. 
+
+Spell forest is a casual word game. This was built on the technology developed by the AI team, using a game description language. Game maker is an internal tool that uses PCG to expedite the level design process. Ad Maker uses a game description language to make playable ad experience. 
+
+The take-two team is a research team, but they have to consider how to introduce these ideas into a production setting. In order to have ideas accessible to the public, you have to re-introduce variables that we weed out in research. Often user are less tolerant then we would like, they will not wait for your AI system to run. Users are also not very often predictable, they will use the tools in ways you don't expect. Understanding your users is very important in order to actually get them to user your tool. You also have to consider scale, things that work in a small scale are not likely to easily be expanded into a large scale product. You also have to consider how you measure success of your product, how are you adding value? Products needs to have built in feedback loops, you so can measure what matters and improve over time. 
+
+Overall this means that building flexible system is important. This means that we don't have to change the core idea, even in changing environments. For example in spell forest, all the UI system were dynamic and controlled using a manger that led to customized experiences for each player. Another example is optimized automated testing systems. Custom pipelines gives them a low level insight into how their system is working - building systems that listen for you. 
+
+
+(This keynote does not speak for 2k games, Rockstar Games, or Zynga)
+
+
+
+### Papers 
+Here are my notes from a sampling of papers (and posters, and doctoral contortions). My choice to talk about particular papers speaks more to my level of tiredness at time of presentation, and should not be seen as a reflection of the quality of the presentation. Also note these are notes I took while watching the presentation, and I have not read all the papers, so there might be some mis-interpretations. Please read the full papers if you find any of these interesting. 
+
+####  Narrative Planning ( a series of papers)
+
+The overall problem of narrative planning is how to keep story consistent with a player that can make unpredictable decisions in the space. A narrative planner problem has 1. an initial state, 2. character utility function and 3. a author utility function. The solution is a sequence of action that can be made from the initial state that achieves the author's goal and that are believable, in the sense that they are actions that players think they can make and obey the desires of the characters. 
+
+##### Duplicate states 
+For each state they are both edges that are connected by actions (transitioning to different state) and for each character what state they *believe* they are in. This graph allows us to track what each character believes, along with what each character believes that other characters believes. The problem for this paper is that you can end up with states duplicated, and the goal was to detect and remove these duplicate these states. Must track not only the truth, but what each character believes. 
+
+They created an algorithm that detects all duplicates in polynomial time (I am not going to bother describing the algorithm or proof). They attempted to remove duplicates using both graph and tree search. Overall graph search was able to reduce the graph more and in faster time. 
+
+##### Answer Set Encoding of Narrative Planning 
+This paper uses declarative programming for narrative programming (Chris Martens did something similar). It compared this to imperative languages (Saber).
+
+This approach uses Answer Set Programming (ASP), which is a problem is defined as a series of contracts and an answer is an assignment of variables. The narrative planners has characters, fluents (adjectives), initial states, and actions. Multi-shot solving allows the planner to look for plans with multiple lengths. Characters can have incorrect believes about the world. The planner has states conveying both the true state of the world, along with characters beliefs (and characters beliefs about other characters beliefs). The system outputs a story plan, character plans, and a completed initial state. 
+
+> They compare the ASP solver to the baselines in the Saber system. Some problems were unsolvable in ASP, and saber was always faster in the best configurations. Saber wins in performance, but ASP was more concise and flexible. They suggest a hybrid approach using both ASP and imperative languages. 
+>
+##### Uncertainty in Narrative Planning  
+This doctoral work in which they want to add uncertain beliefs, and actions with non-deterministic effects (the planner determines the outcomes). This can be useful to real world simulations that still adapt ot user input and detective stories where a character has to narrow down beliefs to solve a mystery. Previous work has had uncertainty but did not scale well.  
+
+In narrative planning, we control the world so we can give the illusion of uncertainty without having to account for all outcomes - the author chose one outcome to be ready for. 
+
+#### Immersive Theater 
+Produce an participatory experience for the broadway show Xanadu. Integrated LLMs into the performance. They had to maintain trade-off between latency, style, and other elements. Audience contribute sketches at key moments early in the show using AR-tracked gesture. They also used their phones to drawn on large screens on the stage. The LLm interprets the sketches to make them into thematically appropriate and high quality images. 
+
+To be honest looking at the images and the generated images, I don't really see the connections. I am not sure I would even recognize my drawing if it was transcribed that way.
+
+#### Knowledge Graphs for Characters and Narratives 
+
+This work is inspired by Prom Week, a game where they could simulate complex social relationships. 
+
+The problem: characters are underultiizing the environment and vise vera. 
+
+You can think of a scenario where you are getting into a fight in a tavern. The knowledge graph can capture that a broom is similar to staff and the character can then use it as a improvised weapon. The general idea of this work is that you can co-generate story with the setting (as captured by a knowledge graph). 
+
+#### Text to Level Mario 
+Contributions: automatically generates captions about pre-made levels, assess caption adherence/quality of generated levels, used various text-embedding models to generate levels given a caption. 
+
+Used data from the Video Game Level Corpus, particularly the super mario bro levels. 
+
+They captured captions of various types: regular (e.g two enemies), absence (e.g. no enemies), negative captions (e.g. does not have enemies). Used a transformer model which was trained used masking. This is put into a diffusion model, which trains with noise and then removes it. This means you have give it noise and it will be able to create something that looks like a level. The score for each model is measured about how close the level is to adhering to the prompt. 
+
+There model did better then the baselines, despite it being the smallest model (for test set). On random sets, their model still did the best but didn't do well overall. There model relatively fast to train out of the models that did reasonably well. 
+
+Text-to-level is possible with limited caption vocab. Overall the models that were bigger did worse. MLM (their model) did well and was fast to train. Plain regular caption did best. Real captions had levels that matched data while random captions were diverse. They also built a GUI to create large levels (combining segments) and playtest themselves yourself. 
+
+
+#### Video game Level design as a multi-agent reinforcement learning problem  
+Search-based PCG can used to generated content that explicitly satisfies functional constraints, but search is slow. PCG-RL trains a generator that abides constraints and is fast at run-time, with no data required and the designer only needs to specify high-level constraints. 
+
+PCG-RL works by having an agents that moves around the map, takes observations, and makes changes. These agents tend to scale better to different map shapes and sizes, when there is more then one agent on the map. This work bridges that gap between generally general, robust agents and distributing them across the map. This is to represent the way that content generation often involves collaboration between multiple specialists. They found that agents that learn ot self-organize wind up better at their jobs. 
+
+They trained an RL with multiple agents on the map, update them all at once, and calculating the reward afterwards. They agents are represented like a "turtle", where agents can move themselves around the map, and observe where other agents were. Adding these agents leads to better training performances. They hypothesis si that multi-agents have more varied means of exploring the map, they have less incentive to memorize strict action trajectories - which results in more general agents. `
+
+
+#### Time-based Chart Partitioning 
+This works tries to automate the charting process for rhythm games, which is place notes/key presses along a song. There are two problems in current systems: notes being placed slightly off-beat, and a lack of local pattern coherence (what feels satisfying to play). They first get general ideas of where beats are through onset mapping, and then snap them down using knowledge about music. Lastly they do pattern matching through binary time partitioning, where they use a dataset of human charts to find ones that match for each section. There model outperformed the existing neural model on almost all metrics recorded. 
+
+
+#### Generative Game Design 
+Through a survey, most people think of "procedural" as equivalent to randomization. This survey data suggests that we might need a tighter definition of PCG as a community: where it affects the gameplay. 
+
+Some game designers have negative views of PCG. As one says "I only want to play games that were crafted by humans hands. (paraphrased)" The game designers are taking pride in "placing every pixel by hand." 
+
+However cook has argued that PCG system have an incredible amount of design in it. Take Splunky, which very much shows the design knowledge of the developer. 
+
+There is a distinction between input (influences player decision making) and output (happens after a player makes a decision) randomness. People typically think of input randomness as PCG, but we dont think of drawing a card as PCG. 
+
+This paper argues that human players are actually quite similar to the randomness we decision for in PCG systems. They have the same amount of unpredictabilness, and similarly can create outputs that are undesirable. Everytime we play a game, we create a new play experiences - which is not that dissimilar to how each run of a roguelike is different. You can similarly use tools like expressive range analysis to process human play data, the same way you can evaluate a PCG system.  
+
+Fundamentally game design is a generative process, so all game design is generative design. 
+
+#### Visual Bug Detection 
+This is a paper presented by Microsoft. 
+
+Detecting bugs are challenging as there are different kinds of bugs, including single and multi frame bugs. Manual testing creates a bottle neck. 
+
+They created a co-finedtuned method, using both co-supervised learning using data from multiple games and self-surpervised learning using unlabeled data. The backbone of this modle is a vision transformer, which detects bugs uses a R-CNN. This models has two branches: the co-supervised and the self-supervised. 
+
+The co-supervised model used labeled data from target gaming and other gamining titles. Labeled images from multiple titles can increase the diversity of visual bugs and enhanced performance. 
+
+Self-supervised. Used unlabeled data from target and co-titles. Images are feed in to a m asked patch reconstruction layer in the latent space. Loss is calcualted as MSE between reconstructed and target latent features. 
+
+Dataset: The data came from two experimental games GiantMap, HighRise and one released game CombatGame. Examples of bugs are culling pop: the abrupt appearance or disappearance of an object in the scene. The other example is a LOD pop: a sudden change in the texture of an object. 
+
+Results: Their model outperforms the current AutoML baseline. It also maintains performance even with 50% of labeled data. They further confirmed that both branches of the models were useful, as the model with neither component had the lowest performance and the one with both had the highest performance. 
+
+#### Game Google 
+This is a search engine for searching for game mechanics. Specifically this is aiming to search for mechanics within video games. For example if you search "basketball" you can get results including games within the genre, games with mini games for basket ball, and easer eggs. Previous systems are all community based, e.g "woke game detector" or "can I pet the dog."
+
+This database captures many aspects of the game, including the game genre, description, etc. From a user study, the first game people thought of were very often including in the first 20 results of the search engine. 
+
+#### Information Story Games 
+This paper follows the game Return of the Obra Dinn, where you are on a ship where everyone died and you must figure out what happened. As a designer you care about how to convey to the player what happened. This relates to narrative sensemaking - the ability to understand a story's events and make informed inferences about narrative elements. This paper looks at the problem of plan recognition. 
+
+Plan recognition: observed ordered sequence of actions taken by an agent in the pursuit of some goal, out of a set of potential goals. 
+1. generate a solution for every goal
+2. generate a solution with the observations for every goal 
+3. Compute the cost of solutions (e.g number of actions)
+4. I the cost is not the same as expected cost, throw out the solution 
+
+The problem with this is that you can only observe actions, not states without known actions. You also can't talk about parital actions where e.g. we know what happened but not who did it. 
+
+Their solution is to use fluent observations and unordered groups. Fluent observations of components of the world, but not of the actions themselves. Option groups are actions or fluents that lift (unknown information about a specific part). Ordered groups are totally ordered set of actions (or fluents), similar to above but allowing fluents. Unordered groups are an unordered set of actions of fluents which they can be ordered in anyway or not at all. 
+
+They tested their method vs previous work on on 4 domains.  They attempted to reconstruct their method using the previous work, using the "ignore complexity" strategy. Overall there method was slower, but was able to solve more problems. 
+
+Overall this allows them to model unknown information, which is easier to control from a testing perspective. 
+
+Takeaway: They introduced fluent observations, option groups, unordered groups, and extended ordered groups. Their methods are an improvement over baselines. 
+
+#### An adaptive puzzle game using GAS 
+The goal of this poster is two adapted to the individual user, such that they are not too easy or hard. It is a pathfinding puzzle about aliens and trains: each puzzle has a start and end point, and you must pick up cargo and bring them to drop off points. The goal is to find the path, that does not overlap, to deliver all the cargo. They generate the path first and place objects around it. The difficulty is measured on a 1-10 scale, determined by a custom function which is a weighted sum of different components.  
+
+
+#### Large Scale Character Simulation 
+This uses a tool called TED that was made for data logging, and it very fast. While TED is great there is a lot of boiler plate that you have to deal with. They built Simulog, which is a highly abstracted language built on TED that is more natural to use for character simulation. 
+
+#### Expressive range Characterization of open Text-to-Audio Models 
+This is focused on trying to analysis the range that text-to-audio models produce. They wanted to use expressive range analysis which requires that you track two diversity metrics. They generated several sounds a d tested them using different expressive metrics. They used PCA to determine which two metrics capture the most variation within each metric (pitch, timbre, loudness). They demonstrated two approaches: bottom-up and top-down. 
+
+#### GametileNet: A semantic dataset for low resolution game art PCG 
+Most PCG lacks a semantic grounding, with existing sets being small and fixed they result in a limited narrative range. Generative models can create sprites but require heavy clean-up. Artists have already made lots of high-quality art, but it is unlabeled. So they created a dataset that pairs art assets with the semantic meaning. GameTileNet contain over 2k 32x32 top-down pixel art images. It maps story elements to usable tiles, along with a semantic embedding.  All pixels are labeled using filenames, author-tag, and human-tags (and more). 
+
+#### Learning finite State machines with Gameplay Video 
+The goal of this project is taking a gameplay video and build a symbolic model of the world. The first step is to split the gameplay video into frames with one second increments. Then they recognize all the sprits using a sprite extraction network. This composes all the frames into a grid. The model then learns behavior by looking at cause and effect through frame pairs. This results in a program for all sprites in the scene, in their own DSL (RetroCoder). They tested this on pac man, where the ghost learns to follow pac man. Although it does end up with some incoherent code due to errors in capturing gameplay data.  
+
+
+#### Processed centered design for Creativity Support Tools 
+A creativity support tool is any tool that can be used to support your process. While artists still feel like they are hand crafting art with a fill tool, they are more resistent to agent based assistant. 
+
+Art is a process of continuous iteration, where at each step you need to make decisions. However, some decisions are following-up and are just executing previous decisions (e.g if one leg is brown the other leg will be brown). Automation can be useful in this sense, where you make all the decisions that are important to you and let the agent do repetitive tasks. As an example they generated the flat colors based on lineart and color palettes. However, at no point is this a JPG, but instead is a editable document (e.g. photoshop). 
+
+
+## Reflections on my Research  
+This conference greatly inspired me in terms of my own research. It was great to see all the work in this field, along with talking with some of the top researchers in game AI. While I am full of ideas, where are a small set that I took from the conference. 
+
+### Roleplay as a Narrative Puzzle 
+There were many papers around narrative planning, primarily by Stephen Ware and his students. While the goal of narrative planning is slightly different that what a GM in a TTRPG might need, I can see some connections there. I was largely inspired by Ware's talk at EXAG that compared a narrative situation to a chess puzzle. This made me consider if I could use the set-up of a narrative model: characters with goals, a world state, and a set of actions - as a base for a mixed-initiative generator for roleplaying scenarios that are similar to puzzles. 
+
+Here is how I am currently imagining the set up. The GM has some end goal in mind (e.g. the party must talk to a NPC), and can place this goal into the interface. They can also set up some parts of the initial state, for example some NPCs or locations they know they want included. This system will also need to model the party, which I imagine as one agent (no splitting the party), with multiple goals that represent how each player wants to handle a situation (e.g. the rogue wants to sneak and the bard wants to talk). The generator must then complete the initial state such that: the end goal is possible to reach, as many of the party goals are met as possible, and the path through the puzzle is the correct (according to the GM) level of difficulty. I think it could also be interesting to consider how many paths are possible between the initial state and the end state. One thing I am still considering is how to model difficulty. Naively this could be the length of the solution path, but I could imagine that generating puzzles that are long and tedious but not difficult. I need to think more about what about this situation actually makes it like a puzzle - what logical steps does the party need to consider? Another consideration is how to incorporate skill checks into the system. This is a struggle overall for me, as I want skill checks to be meaningful but not blocking. Perhaps there is a way to incorporate more difficulty given a failed check, or multiple paths.
+
+### Logic Puzzle Worldle 
+Some feedback I got on my logic puzzle poster, is that is close to something that could be very popular. The example they gave was how wordle blew off. We could take inspiration from Wordle, and see how we can port our logic puzzle generation system into something that builds connections and can casually be integrated into people's routines. 
+
+### New Self-Assembling Game Possibility
+Talking to people about my self assembling project, I got lots of ideas for how this can be used in future games. Here are just some general ideas that came up: 
+1. using self assembly to build environments or maps 
+2. having figures that very in final form (e.g a snake that can have many body pieces)
+3. Have a mechanic for decomposing and/or re-assembling figures 
+4. Creating encounters that are automatically balanced by the properties of the self-assembly connections 
+
+This also told me that it would be valuable to create a way to simulate a self-assembling system. I think a next step would be creating a simulation software and testing on Roll, Rattle, Rumble to balance the game mechanics there. 
+
+### Large Scale Character Simulation for Detective Games 
+Perhaps more of a game design project then a research project, but I was reflecting on the work done for simulating large amount of autonomous characters and how that could be applied to mystery games. Particularly I am thinking of games like Shadows of Doubt, that rely on large amount of simulated characters so they player cannot brute force their way to solve the mystery. I could also see something like this being useful for a GM of a TTRPG, where they want their world to feel full but can't spend the time to think about the actions of an entire city. 
