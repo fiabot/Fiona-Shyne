@@ -42,9 +42,9 @@ I was mostly pre-occupied with running the workshop, so I wasn't able to pay att
 
 #### Designing a Modular, Scalable Benchmark for Narrative Experience Management
  
- This paper was interesting to me as it posed narrative situations as a puzzle. The speaker first gave an example of a chess puzzle, where you are given a state in a chess game and must decide what the best next move is. Narrative situations could be posed in the similar situation, in the sense that you need to decide which actions each character makes that aligns with the desires of the characters, along with over all story goals. 
+This paper was interesting to me as it posed narrative situations as a puzzle. The speaker first gave an example of a chess puzzle, where you are given a state in a chess game and must decide what the best next move is. Narrative situations could be posed in the similar situation, in the sense that you need to decide which actions each character makes that aligns with the desires of the characters, along with over all story goals. 
 
- They presented a benchmark for describing narrative problems that is flexible, tracks multiple agents, and can be softlocked (along with other requirements that I am forgetting about). You can look at a snap shot of a state and try and figure out what actions each character should make to complete an overall goal along with following each characters desires. This work doesn't make any assumptions of what makes a "good" story and instead leaves that up to whoever is using the benchmark tool.  
+They presented a benchmark for describing narrative problems that is flexible, tracks multiple agents, and can be softlocked (along with other requirements that I am forgetting about). You can look at a snap shot of a state and try and figure out what actions each character should make to complete an overall goal along with following each characters desires. This work doesn't make any assumptions of what makes a "good" story and instead leaves that up to whoever is using the benchmark tool.  
 
 #### A Markovian Framing of Wave Function Collapse for Procedurally Generating Aesthetically Complex Environments
 
@@ -62,9 +62,9 @@ Mike Cook was nice enough to give the key note for the EXAG workshop. Mike was t
 
 Kate Compton had a vocal issue so conducted the entire keynote in ASMR! In edition, she posted her notes on Miro board to make it an interactive experience. 
 
- Honestly it was somewhat hard for me to follow this talk both because Kate was loosing her voice, and I was very quickly distracted by all the participants on the Miro board scribbling on the edges. Overall the talk was about how to build infrastructures for casual creators. Overall she talked about the three properties of folk infrastructures in that they need to be: fuck-up friendly, have semantic components that can be recombined, and be shareable. 
+Honestly it was somewhat hard for me to follow this talk both because Kate was loosing her voice, and I was very quickly distracted by all the participants on the Miro board scribbling on the edges. Overall the talk was about how to build infrastructures for casual creators. Overall she talked about the three properties of folk infrastructures in that they need to be: fuck-up friendly, have semantic components that can be recombined, and be shareable. 
 
- Overall this was a wonderful experience. I very much enjoyed the interaction with the miro board, and the silly comments from other participants including the continued calls for tea breaks. 
+Overall this was a wonderful experience. I very much enjoyed the interaction with the miro board, and the silly comments from other participants including the continued calls for tea breaks. 
 
 #### Take Two 
 Take two AI is a cross functional group building next-gen tools to support team across the enterprise. They also manage GenAI governance across T2. This talk is focused on how to get AI integrated into games. 
@@ -99,8 +99,8 @@ This paper uses declarative programming for narrative programming (Chris Martens
 
 This approach uses Answer Set Programming (ASP), which is a problem is defined as a series of contracts and an answer is an assignment of variables. The narrative planners has characters, fluents (adjectives), initial states, and actions. Multi-shot solving allows the planner to look for plans with multiple lengths. Characters can have incorrect believes about the world. The planner has states conveying both the true state of the world, along with characters beliefs (and characters beliefs about other characters beliefs). The system outputs a story plan, character plans, and a completed initial state. 
 
-> They compare the ASP solver to the baselines in the Saber system. Some problems were unsolvable in ASP, and saber was always faster in the best configurations. Saber wins in performance, but ASP was more concise and flexible. They suggest a hybrid approach using both ASP and imperative languages. 
->
+ They compare the ASP solver to the baselines in the Saber system. Some problems were unsolvable in ASP, and saber was always faster in the best configurations. Saber wins in performance, but ASP was more concise and flexible. They suggest a hybrid approach using both ASP and imperative languages. 
+ 
 ##### Uncertainty in Narrative Planning  
 This doctoral work in which they want to add uncertain beliefs, and actions with non-deterministic effects (the planner determines the outcomes). This can be useful to real world simulations that still adapt ot user input and detective stories where a character has to narrow down beliefs to solve a mystery. Previous work has had uncertainty but did not scale well.  
 
